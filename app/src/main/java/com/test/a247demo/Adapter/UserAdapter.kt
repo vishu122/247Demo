@@ -33,7 +33,7 @@ class UserViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     fun bind(user: Result) {
         itemView.name.text = "Title: " + user.name
         itemView.email.text = "Email: " + user.email
-        itemView.gender.text = "Rating : " + user.gender
+        itemView.gender.text = "Gender : " + user.gender
     }
 
 }
